@@ -27,7 +27,7 @@
                         <a class="menu-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <button class="mobile-button">
+            <button type="button" class="mobile-button js-open-menu" >
                 <svg width="32px" height="22px">
                     <use class="mobile-button-icon" href="./images/icons.svg#burger-icon"></use>
                 </svg>
@@ -414,9 +414,9 @@
 
     <!-- ====== Mobile menu ========= -->
 
-    <div class="mobile-menu is-hidden">
-        <div class="container mobile-container">
-            <button class="mobile-close-btn">
+    <div class="mobile-menu">
+        <div class="container mobile-container js-menu-container" >
+            <button type="button" class="mobile-close-btn js-close-menu" >
                 <svg width="8px" height="8px" >
                     <use class="mobile-close-icon" href="./images/icons.svg#icon-closebutton"></use>
                 </svg>
@@ -465,15 +465,16 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
+    
     <!-- ===== JS Modal ========= -->
 
     <script src="./js/modal.js"></script>
 
     <!-- ===== JS Mobile menu ===== -->
 
-    
+    <script src="./js/mobile-menu.js"></script>
+
 </body>
 </html>
