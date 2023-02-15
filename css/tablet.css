@@ -106,6 +106,56 @@
     .mobile-menu {
         display: none;
     }
+
+    /* <!-- ==========HERO ========== --> */
+
+
+    .hero {
+        background-image: 
+        linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+        url(../images/tablet/herotablet.jpg);
+    
+        max-width: 768px;
+        height: 436px;
+        padding-bottom: 108;
+    
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image: 
+        linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+        url(../images/tablet/herotablet@2x.jpg);
+      }
+    }
+
+    .hero-title {
+        margin-bottom: 40px;
+        max-width: 496px;
+    
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+    /* <!-- Modal window --> */
+
+    .modal-window {
+        width: 408px;
+        padding: 24px;
+    }
+
+    /* <!-- =======FEATURES ========= --> */
+
+
+
+
 }
 
 

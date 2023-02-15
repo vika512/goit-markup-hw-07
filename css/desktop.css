@@ -37,4 +37,40 @@
     }
 
 
+
+
+/* =========== HERO ========= */
+
+.hero {
+    background-image: 
+    linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+    url(../images/desktop/herodesktop.jpg);
+
+    max-width: 1440px;
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: 
+    linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+    url(../images/desktop/herodesktop@2x.jpg);
+  }
+}
+
+.hero-title {
+    margin-bottom: 48px;
+}
+
+
+/* end of the media */
 }
