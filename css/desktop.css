@@ -166,7 +166,24 @@
     padding-bottom: 100px;
 }
 
+.footer-container {
+    max-width: 1158px;
+    gap: 0px;
+}
 
+.media-footer {
+    margin-left: 120px;
+}
+
+.subscribe-footer {
+    margin-left: 80px;
+}
+
+
+.subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+}
 
 
 /* end of the media */

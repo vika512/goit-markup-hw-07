@@ -203,18 +203,44 @@
     /* <!-- ============FOOTER ============--> */
 
     
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
 
+        max-width: 528px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
 
+    .footer-logo-first {
+        padding-left: 0px;
+    }
 
-    
+    .footer-description {
+        width: 264px;
+    }
 
-    
+    .footer-social-title {
+        text-align: start;
+    } 
 
+    .subscribe-footer {
+        max-width: 453px;
+    }
 
+    .subscribe-form {
+        flex-direction: row;
+        gap: 24px;
+    }
 
+    .subscribe-title {
+        text-align: start;
+    }
 
-
-
+    .subscribe-field {
+        width: 264px;
+    }
 
 /* end of the media */
 }
