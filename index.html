@@ -27,7 +27,7 @@
                         <a class="menu-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <button type="button" class="mobile-button js-open-menu" >
+            <button type="button" class="mobile-button" js-open-menu>
                 <svg width="32px" height="22px">
                     <use class="mobile-button-icon" href="./images/icons.svg#burger-icon"></use>
                 </svg>
@@ -43,11 +43,67 @@
                 </ul>
             </address>
         </div>
-        <div class="mobile-menu"></div>
+    
+        <!-- ====== Mobile menu ========= -->
+
+    <div class="mobile-menu is-hidden" js-menu-container>
+        <div class="container mobile-container" >
+            <button type="button" class="mobile-close-btn" js-close-menu>
+                <svg width="8px" height="8px" >
+                    <use class="mobile-close-icon" href="./images/icons.svg#icon-closebutton"></use>
+                </svg>
+            </button>
+            <div class="mobile-flex">
+                <ul class="mobile-menu-list list">
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link" href="index.html">Studio</a></li>
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link" href="">Contacts</a></li>
+                </ul>
+                <address class="mobile-address">
+                    <ul class="mobile-address-list list">
+                        <li class="mobile-address-item phone">
+                            <a class="mobile-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li  class="mobile-address-item">
+                            <a class="mobile-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+                <div>
+                    <div class="mobile-social">
+                        <a class="mobile-social-button" href="">
+                            <svg class="mobile-social-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                        <a class="mobile-social-button" href="">
+                            <svg class="mobile-social-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>                                
+                        <a class="mobile-social-button" href="">
+                            <svg class="mobile-social-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>                                
+                        <a class="mobile-social-button" href="">
+                            <svg class="mobile-social-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </header>
 
     <main>
-                <!-- ==========HERO ========== -->
+        
+        <!-- ==========HERO ========== -->
 
         <section class="hero">
             <div class="container container-header">
@@ -122,6 +178,7 @@
         </section>
 
         <!-- =============TEAM MEMBERS========== -->
+
         <section class="team">
             <div class="container team-container">
                 <h2 class="team-title">Our Team</h2>
@@ -410,62 +467,6 @@
                 </label>
                 <button type="submit" class="modal-submit-btn">Send</button>
             </form>
-        </div>
-    </div>
-
-    <!-- ====== Mobile menu ========= -->
-
-    <div class="mobile-menu is-hidden js-menu-container">
-        <div class="container mobile-container" >
-            <button type="button" class="mobile-close-btn js-close-menu" >
-                <svg width="8px" height="8px" >
-                    <use class="mobile-close-icon" href="./images/icons.svg#icon-closebutton"></use>
-                </svg>
-            </button>
-            <div class="mobile-flex">
-                <ul class="mobile-menu-list list">
-                    <li class="mobile-menu-item">
-                        <a class="mobile-menu-link link" href="index.html">Studio</a></li>
-                    <li class="mobile-menu-item">
-                        <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="mobile-menu-item">
-                        <a class="mobile-menu-link link" href="">Contacts</a></li>
-                </ul>
-                <address class="mobile-address">
-                    <ul class="mobile-address-list list">
-                        <li class="mobile-address-item phone">
-                            <a class="mobile-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                        </li>
-                        <li  class="mobile-address-item">
-                            <a class="mobile-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                    </ul>
-                </address>
-                <div>
-                    <div class="mobile-social">
-                        <a class="mobile-social-button" href="">
-                            <svg class="mobile-social-icon" width="16px" height="16px">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                        <a class="mobile-social-button" href="">
-                            <svg class="mobile-social-icon" width="16px" height="16px">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>                                
-                        <a class="mobile-social-button" href="">
-                            <svg class="mobile-social-icon" width="16px" height="16px">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>                                
-                        <a class="mobile-social-button" href="">
-                            <svg class="mobile-social-icon" width="16px" height="16px">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     
