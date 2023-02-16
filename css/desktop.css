@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1158px;
+        width: 1160px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -70,6 +70,103 @@
 .hero-title {
     margin-bottom: 48px;
 }
+
+
+/* ===== FEATURES======= */
+
+.features-images {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+
+    background-color: var(--light-background-color);
+}
+
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-item {
+    flex-basis: calc( 100% / 4 - 24px );
+    max-width: 264px;
+}
+
+.feature-name {
+    font-size: 20px;
+}
+
+/*   <!-- =======SERVICES======= --> */
+
+.services {
+    display: block;
+    padding-bottom: 120px;
+}
+
+.services-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    gap: 24px;
+}
+
+.services-title {
+    margin-bottom: 72px;
+
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+/* alternative list width: */
+
+/* .services-item {
+    flex-basis: calc( (100%-2) * 48 / 3 ) ;
+}  */
+
+
+/* <!-- =============TEAM MEMBERS========== --> */
+
+.team {
+    padding-bottom: 120px;
+}
+
+.container-small {
+    max-width: 1160px;
+}
+
+.team-list {
+    column-gap: 24px;
+}
+
+
+/* <!-- =============== Customers ============= --> */
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-container {
+    max-width: 1160px;
+}
+
+
+
+/* <!-- ============FOOTER ============--> */
+
+.page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
 
 
 /* end of the media */

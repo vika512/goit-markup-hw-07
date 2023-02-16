@@ -65,253 +65,27 @@ body {
 
 /* =================== FEATURES =================== */
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
-.features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.features-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -24px;
-}
-
-.features-item {
-    flex-basis: calc( 100% / 4 - 24px );
-    margin-left: 24px;
-}
-
-.feature-name {
-    margin-bottom: 8px;
-
-    color: var(--primary-text-color)
-}
-
-.feature-description {
-    color: var(--secondary-text-color);
-}
-
-.features-images {
-    display: flex;
-    justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-bottom: 8px;
-
-    background-color: var(--light-background-color);
-}
-
 /* =================== SERVICES =================== */
-
-.services {
-    padding-bottom: 120px;
-}
-
-.services-list {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
-    margin-top: 0;
-    gap: 24px;
-}
-
-.services-title {
-    margin-bottom: 72px;
-
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--primary-text-color);
-}
-
-/* alternative list width: */
-
-/* .services-item {
-    flex-basis: calc( (100%-2) * 48 / 3 ) ;
-}  */
 
 /* ================= TEAM MEMBERS ============== */
 
-.team {
-    background-color: var(--light-background-color);
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.team-title {
-    margin-bottom: 72px;
-
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--primary-text-color);
-}
-
-.team-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.team-item:not(:nth-child(4n)) {
-    margin-right: 24px;
-}
-
-.team-card {
-    background-color: #FFFFFF;
-    padding-bottom: 32px;
-    padding-top: 32px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-
-.team-name {
-    margin-bottom: 8px;
-    text-align: center;
-    color: var(--primary-text-color);
-}
-
-.team-position {
-    text-align: center;
-    color: var(--secondary-text-color);
-    margin-bottom: 8px;
-}
-
-.team-social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 232px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.social-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--secondary-accent-color);
-    border-color: transparent;
-
-    transition: background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-
-.social-button:is(:hover, :focus) {
-    background-color: var(--primary-accent-color);
-}
-
-.social-icon {
-    fill: var(--dark-background-text);
-}
-
 /* =========== Customers ============ */
 
-.customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
-}
-
-.customers-title {
-    margin-bottom: 72px;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-}
-
-.customers-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0;
-    margin-bottom: 0;  
-    gap: 24px;  
-}
-
-.customers-item {
-}
-
-.customers-link {
-    display: flex;
-    max-width: 168px;
-    padding: 16px 32px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-
-    transition: border-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-
-.customers-link:is(:hover, :focus) {
-    border-color: var(--secondary-accent-color);
-}
-
-.customers-icon {
-    fill: #8E8F99;
-
-    transition: fill 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-
-.customers-link:is(:hover, :focus) .customers-icon {
-    fill: var(--secondary-accent-color);
-}
 
 /* =========== FOOTER ============ */
 
-.page-footer {
-    background-color: var(--primary-text-color);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
-.footer-container {
-    display: flex;
-}
 
 .media-footer {
     width: 208px;
     margin-left: 120px;
 }
 
-.footer-logo-first {
-    color:var(--secondary-accent-color);
-}
 
-.footer-logo-second {
-    color:var(--light-background-color);
-}
 
-.footer-description {
-    width: 264px;
-    margin-top: 16px;
 
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
-}
 
-.footer-social-title {
+/* .footer-social-title {
     margin-bottom: 16px;
 
     font-family: 'Roboto', sans-serif;
@@ -320,9 +94,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-background-text);
-}
+} */
 
-.footer-social-list {
+/* .footer-social-list {
     display: flex;
     width: 208px;
     margin-left: -16px;
@@ -349,9 +123,9 @@ body {
 
 .footer-social-link:is(:hover, :focus) {
     background-color: #31D0AA;
-}
+} */
 
-.subscribe-footer {
+/* .subscribe-footer {
     margin-left: 80px;
     width: 453px;
 }
@@ -404,8 +178,6 @@ body {
 .subscribe-btn {
     min-width: 165px;
     height: 40px;
-    /* margin-top: 16px;
-    margin-left: 24px; */
     padding-top: 8px;
     padding: 8px 24px;
     border-radius: 4px;
@@ -425,9 +197,9 @@ body {
     background-color: var(--secondary-accent-color);
 
     transition: background-color 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
-}
+} */
 
-.subscribe-btn:hover,
+/* .subscribe-btn:hover,
 .subscribe-btn:focus {
     background-color: var(--primary-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -437,7 +209,7 @@ body {
     position: absolute;
     margin-left: 16px;
     fill: var(--dark-background-text);
-}
+} */
 
 
 /* ======= PORTFOLIO PAGE =========*/
@@ -577,6 +349,11 @@ body {
 
 /* ====== Modal window ========= */
 
+/* .is-open {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+} */
 
 .modal-background.is-hidden .modal-window {
     transform: translate(-50%, -50%) scale(0.7);

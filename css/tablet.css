@@ -153,9 +153,70 @@
 
     /* <!-- =======FEATURES ========= --> */
 
+    .features-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .features-item {
+        max-width: 356px;
+    }
+
+    .feature-name {
+        text-align: start;
+    }
+
+
+    /* <!-- =============TEAM MEMBERS========== --> */
+
+    .team {
+        padding-bottom: 104px;
+    }
+
+    .container-small {
+        max-width: 584px;
+    }
+
+    .team-list {
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+/* ======= Customers ====== */
+
+.customers-container {
+    max-width: 584px;
+}
+
+.customers-list { 
+    column-gap: 24px;  
+}
+
+.customers-link {
+    width: 168px;
+}
+
+
+    /* <!-- ============FOOTER ============--> */
+
+    
 
 
 
+    
+
+    
+
+
+
+
+
+
+
+/* end of the media */
 }
 
 
