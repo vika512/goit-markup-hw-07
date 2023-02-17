@@ -167,7 +167,7 @@
 }
 
 .footer-container {
-    max-width: 1158px;
+    max-width: 1160px;
     gap: 0px;
 }
 
@@ -185,6 +185,12 @@
     gap: 24px;
 }
 
+
+/* ====== Modal window ====== */
+
+.modal-window {
+    top: 80px;
+}
 
 /* end of the media */
 }
