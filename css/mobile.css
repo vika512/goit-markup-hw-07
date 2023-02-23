@@ -267,6 +267,29 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+    .hero {
+        background-image: 
+        linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+        url(../images/mobile-images/mini-mobile.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image:
+        linear-gradient(
+                rgba(46, 47, 66, 0.7), 
+                rgba(46, 47, 66, 0.7)),
+        url(../images/mobile-images/mini-mobile@2x.jpg);
+      }
+    }
+}
+
 .hero-title {
     margin-bottom: 72px;
     max-width: 320px;
